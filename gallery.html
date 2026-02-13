@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Velvet &amp; Shear</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Velvet <span>&amp; Shear</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html" class="active">Gallery</a><a href="booking.html">Booking</a><a href="contact.html">Contact</a>
+      </div>
+      <div class="hamburger" aria-label="Menu"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="mobile-nav-overlay"></div>
+  <div class="mobile-nav">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html" class="active">Gallery</a><a href="booking.html">Booking</a><a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal">Our <em>Gallery</em></h1>
+      <p class="reveal">A showcase of transformations, artistry, and inspiration</p>
+      <div class="hero-decorative reveal"></div>
+    </div>
+  </section>
+
+  <!-- Before & After -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Before &amp; <em>After</em></h2>
+        <p>See the stunning transformations our stylists create every day</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="ba-grid">
+        <div class="ba-card reveal">
+          <div class="ba-images">
+            <div class="ba-side before"><span class="ba-label">Before</span>Before</div>
+            <div class="ba-side after"><span class="ba-label">After</span>After</div>
+          </div>
+          <div class="ba-card-info"><h4>Brunette to Honey Balayage</h4><p>By Sophia Laurent</p></div>
+        </div>
+        <div class="ba-card reveal">
+          <div class="ba-images">
+            <div class="ba-side before"><span class="ba-label">Before</span>Before</div>
+            <div class="ba-side after"><span class="ba-label">After</span>After</div>
+          </div>
+          <div class="ba-card-info"><h4>Long to Textured Bob</h4><p>By Isabella Monroe</p></div>
+        </div>
+        <div class="ba-card reveal">
+          <div class="ba-images">
+            <div class="ba-side before"><span class="ba-label">Before</span>Before</div>
+            <div class="ba-side after"><span class="ba-label">After</span>After</div>
+          </div>
+          <div class="ba-card-info"><h4>Colour Correction to Rose Gold</h4><p>By Sophia Laurent</p></div>
+        </div>
+        <div class="ba-card reveal">
+          <div class="ba-images">
+            <div class="ba-side before"><span class="ba-label">Before</span>Before</div>
+            <div class="ba-side after"><span class="ba-label">After</span>After</div>
+          </div>
+          <div class="ba-card-info"><h4>Bridal Updo Transformation</h4><p>By Aria Chen</p></div>
+        </div>
+        <div class="ba-card reveal">
+          <div class="ba-images">
+            <div class="ba-side before"><span class="ba-label">Before</span>Before</div>
+            <div class="ba-side after"><span class="ba-label">After</span>After</div>
+          </div>
+          <div class="ba-card-info"><h4>Frizzy to Keratin Smooth</h4><p>By Isabella Monroe</p></div>
+        </div>
+        <div class="ba-card reveal">
+          <div class="ba-images">
+            <div class="ba-side before"><span class="ba-label">Before</span>Before</div>
+            <div class="ba-side after"><span class="ba-label">After</span>After</div>
+          </div>
+          <div class="ba-card-info"><h4>Extensions for Volume</h4><p>By Aria Chen</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Style Inspiration -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Style <em>Inspiration</em></h2>
+        <p>Browse our curated collection by category</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="gallery-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="colour">Colour</button>
+        <button class="filter-btn" data-filter="cuts">Cuts</button>
+        <button class="filter-btn" data-filter="bridal">Bridal</button>
+        <button class="filter-btn" data-filter="balayage">Balayage</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" data-category="colour"><div class="gallery-placeholder g1">Rich Brunette</div><div class="gallery-item-overlay">Rich Brunette Gloss</div></div>
+        <div class="gallery-item reveal" data-category="balayage"><div class="gallery-placeholder g2">Honey Balayage</div><div class="gallery-item-overlay">Honey Balayage</div></div>
+        <div class="gallery-item reveal" data-category="cuts"><div class="gallery-placeholder g3">Textured Lob</div><div class="gallery-item-overlay">Textured Lob</div></div>
+        <div class="gallery-item reveal" data-category="bridal"><div class="gallery-placeholder g4">Elegant Updo</div><div class="gallery-item-overlay">Bridal Updo</div></div>
+        <div class="gallery-item reveal" data-category="colour"><div class="gallery-placeholder g5">Rose Gold Tones</div><div class="gallery-item-overlay">Rose Gold Colour</div></div>
+        <div class="gallery-item reveal" data-category="balayage"><div class="gallery-placeholder g6">Caramel Balayage</div><div class="gallery-item-overlay">Caramel Balayage</div></div>
+        <div class="gallery-item reveal" data-category="cuts"><div class="gallery-placeholder g1">Pixie Cut</div><div class="gallery-item-overlay">Modern Pixie</div></div>
+        <div class="gallery-item reveal" data-category="bridal"><div class="gallery-placeholder g2">Romantic Waves</div><div class="gallery-item-overlay">Bridal Waves</div></div>
+        <div class="gallery-item reveal" data-category="colour"><div class="gallery-placeholder g4">Platinum Blonde</div><div class="gallery-item-overlay">Platinum Blonde</div></div>
+        <div class="gallery-item reveal" data-category="balayage"><div class="gallery-placeholder g5">Ash Blonde Blend</div><div class="gallery-item-overlay">Ash Balayage</div></div>
+        <div class="gallery-item reveal" data-category="cuts"><div class="gallery-placeholder g3">Curtain Bangs</div><div class="gallery-item-overlay">Curtain Bangs</div></div>
+        <div class="gallery-item reveal" data-category="bridal"><div class="gallery-placeholder g1">Low Bun</div><div class="gallery-item-overlay">Classic Low Bun</div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col"><p class="footer-logo">Velvet <span>&amp; Shear</span></p><p>A luxury hair salon where elegance, artistry, and care come together.</p></div>
+        <div class="footer-col"><h4>Quick Links</h4><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a></div></div>
+        <div class="footer-col"><h4>Visit Us</h4><div class="footer-links"><a href="booking.html">Book Appointment</a><a href="contact.html">Contact Us</a></div><p style="margin-top:12px;">123 Rose Lane<br>London, SW1A 1AA</p></div>
+        <div class="footer-col"><h4>Opening Hours</h4><p>Mon – Fri: 9:00 – 19:00<br>Saturday: 9:00 – 18:00<br>Sunday: 10:00 – 16:00</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Velvet &amp; Shear. All rights reserved. | Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
