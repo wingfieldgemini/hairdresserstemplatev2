@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(160deg, var(--cream) 0%, var(--blush) 40%, rgba(183,110,121,0.12) 100%);
+  background: url(https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1920&h=1080&fit=crop) center/cover;
   position: relative;
   overflow: hidden;
 }
